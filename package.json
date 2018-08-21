@@ -1,6 +1,6 @@
 {
   "name": "typed-ecs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript library of ECS, Entity-Component-System Design Pattern",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
