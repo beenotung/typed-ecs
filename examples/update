@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+set -o pipefail
+
+cd ..
+yarn build
+cd -
+yarn add ../
+rm -rf node_modules/ecs/examples
